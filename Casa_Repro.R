@@ -54,3 +54,5 @@ y = as.numeric(banksWGS@coords[,c(2)])
 banks.ppp <- ppp(x=x,y=y,window=window)
 plot(banks.ppp,pch=16,cex=0.4, main="Destination points Of bank")
 plot(density(banks.ppp, sigma = 500),main="KDE Plot of Destination points Of banks", palette="Blues")
+
+#Add on Github.com
